@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carpintería Paulonia - Muebles a medida</title>
+</head>
+<body>
+
+    <header>
+        <h1>Carpintería Paulonia</h1>
+        <p>Tu fuente de muebles a medida de alta calidad</p>
+    </header>
+
+    <section id="inicio" class="section">
+        <h2>Bienvenido a Carpintería Paulonia</h2>
+        <p>Somos expertos en la creación de muebles a medida. Diseñamos y construimos piezas únicas para satisfacer tus necesidades y gustos.</p>
+    </section>
+
+    <section id="catalogo" class="section">
+        <h2>Nuestro Catálogo</h2>
+        <p>Explora nuestra selección de muebles a medida:</p>
+        <div class="mueble">
+            <img src="mueble1.jpg" alt="Mueble 1">
+            <p><strong>Mesa de comedor de madera maciza</strong><br>Perfecta para reuniones familiares y cenas elegantes.</p>
+        </div>
+    </section>
+
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>¿Interesado en nuestros servicios? Contáctanos para obtener más información o realizar un pedido a medida.</p>
+        <form action="enviar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+    
+        <div class="contacto-info">
+            <!-- Agrega la imagen del logo de WhatsApp con un enlace al número de teléfono -->
+            <a href="https://wa.me/1554673956" target="_blank">
+                <img src="whatsapp.png" alt="Logo de WhatsApp">
+            </a>
+        </div>
+    
+        <form action="enviar_formulario.php" method="post">
+            <!-- ... (formulario) ... -->
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Carpintería Paulonia - Muebles a medida</p>
+    </footer>
+
+    <script src="smooth-scroll.js"></script>
+</body>
+</html>
